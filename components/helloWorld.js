@@ -25,6 +25,7 @@ module.exports = {
      conversation.variable(variable, fileurl);
      conversation.transition('success');  
      conversation.keepTurn(true);
+     conversation.reply({text: 'Success'}); // Send a success message to the user
      done();
    }
    else{
