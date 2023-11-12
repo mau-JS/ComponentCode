@@ -11,10 +11,20 @@
     "docker-build": "docker-compose build --force-rm --no-cache"
   },
   "repository": {},
-  "dependencies": {},
+  "dependencies": {
+    "oci-sdk": "^2.5.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.6",
+    "uuid": "^8.3.2"
+  },
   "devDependencies": {
     "@oracle/bots-node-sdk": "^2.7.1",
     "express": "^4.18.2"
   },
-  "bundleDependencies": []
+  "bundleDependencies": [
+    "oci-sdk",
+    "fs",
+    "node-fetch",
+    "uuid"
+  ]
 }
