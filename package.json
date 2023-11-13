@@ -12,9 +12,11 @@
   },
   "repository": {},
   "dependencies": {
-    "oci-sdk": "^2.5.1",
+    "axios": "^1.6.1",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.6",
+    "oci-sdk": "^2.73.1",
+    "stream-buffers": "^3.0.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
@@ -22,9 +24,11 @@
     "express": "^4.18.2"
   },
   "bundleDependencies": [
-    "oci-sdk",
+    "axios",
     "fs",
     "node-fetch",
+    "oci-sdk",
+    "stream-buffers",
     "uuid"
   ]
 }
